@@ -38,7 +38,7 @@ server.sendmail('youremail@gmail.com', to, content) # Replace with your actual e
 The script uses hardcoded local file paths for music and the VS Code application. You must update these paths to match your system's directory structure:
 Feature	Code Line	Action Required
 Play Music	music_dir = 'D:\\Non Critical\\songs\\Favorite Songs2'	Update this path to the directory where your music files are stored.
-Open VS Code	codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"	Update this path to the location of the executable for VS Code (or any other application you wish to open).
+Open VS Code	codePath = "C:\\Users\\shiv\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"	Update this path to the location of the executable for VS Code (or any other application you wish to open).
 ________________________________________
 ▶️ How to Run
 1.	Save the code as a Python file (e.g., jarvis.py).
@@ -59,7 +59,7 @@ Command Phrase	Action Performed
 "play music"	Starts playing the first song in the configured music_dir.
 "tell me the time"	Speaks the current system time.
 "open code"	Launches the application specified by codePath (default is VS Code).
-"email to shiv"	Prompts for content, then sends an email to the hardcoded recipient (harryyourEmail@gmail.com).
+"email to shiv"	Prompts for content, then sends an email to the hardcoded recipient (shivyourEmail@gmail.com).
 ________________________________________
 🛑 Stopping the Assistant
 Since the script uses an infinite while True: loop, you must manually stop it:
