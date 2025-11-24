@@ -59,7 +59,7 @@ Command Phrase	Action Performed
 "play music"	Starts playing the first song in the configured music_dir.
 "tell me the time"	Speaks the current system time.
 "open code"	Launches the application specified by codePath (default is VS Code).
-"email to harry"	Prompts for content, then sends an email to the hardcoded recipient (harryyourEmail@gmail.com).
+"email to shiv"	Prompts for content, then sends an email to the hardcoded recipient (harryyourEmail@gmail.com).
 ________________________________________
 🛑 Stopping the Assistant
 Since the script uses an infinite while True: loop, you must manually stop it:
